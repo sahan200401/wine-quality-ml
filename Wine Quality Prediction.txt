@@ -1,0 +1,41 @@
+# Wine Quality Prediction 🍷
+
+This project builds a machine learning model to predict wine quality
+based on physicochemical properties.
+
+## Dataset
+Wine Quality Dataset (Red & White wines)
+
+## Features
+- Fixed acidity
+- Volatile acidity
+- Citric acid
+- Residual sugar
+- Chlorides
+- Free sulfur dioxide
+- Total sulfur dioxide
+- Density
+- pH
+- Sulphates
+- Alcohol
+
+## Target
+- Quality (score between 0–10)
+
+## ML Tasks
+- Data cleaning
+- Handling missing values
+- Feature engineering
+- Model training & evaluation
+
+## Models Used
+- Linear Regression
+- Random Forest
+- Gradient Boosting
+
+## Tools
+- Python
+- Pandas
+- NumPy
+- Scikit-learn
+- Matplotlib
