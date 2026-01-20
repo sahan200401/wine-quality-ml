@@ -1,5 +1,5 @@
 import pandas as pd
-from skelearn.impute import SimpleImputer
+from sklearn.impute import SimpleImputer
 
 def preprocess_data(df,missing_value_strategy='median',encode_type = True):
     x = df.drop('quality', axis = 1)
